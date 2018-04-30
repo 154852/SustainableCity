@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Cities of the Future</title>
+        <meta charset=utf-8 />
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+            }
+            canvas { width: 100%; height: 100% }
+        </style>
+        <script src="https://threejs.org/build/three.min.js"></script>
+        <script src="controls/Orbit.js"></script>
+        <script src="controls/Stats.js"></script>
+        <script>
+            var options = {};
+
+            function getOption(name, url) {
+                if (options[name] != null) return options[name]
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+                var text = decodeURIComponent(results[2].replace(/\+/g, " "));
+                var result = JSON.parse(text);
+
+                options[name] = result;
+                return result;
+            }
+        </script>
+    </head>
+    <body>
+        <script src="automobile.js"></script>
+        <script src="Visual.js"></script>
+        <script src="world.js"></script>
+    </body>
+</html>

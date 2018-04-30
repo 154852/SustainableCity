@@ -1,0 +1,82 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "8CEABF46-1C74-4207-B703-83243368023F",
+			"type": "BoxBufferGeometry",
+			"width": 4,
+			"height": 40,
+			"depth": 5,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "2798DCBD-0AF1-4989-985F-9BD99D8D05C4",
+			"type": "BoxBufferGeometry",
+			"width": 4,
+			"height": 40,
+			"depth": 5,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "C0330C89-C2C5-43E6-BB32-213C4534862E",
+			"type": "BoxBufferGeometry",
+			"width": 4,
+			"height": 40,
+			"depth": 5,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "A35ADC10-6C89-4221-8F22-092815341BED",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 13355979,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true
+		}],
+	"object": {
+		"uuid": "3741222A-BD8F-401C-A5D2-5A907E891896",
+		"type": "Scene",
+		"name": "Scene",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "D9B3C3F8-95F8-48B9-9449-6E8598961693",
+				"type": "Mesh",
+				"name": "Box",
+				"matrix": [-0.846193,0,0.532876,0,0,1,0,0,-0.532876,0,-0.846193,0,3.404066,19.1,2.540432,1],
+				"geometry": "8CEABF46-1C74-4207-B703-83243368023F",
+				"material": "A35ADC10-6C89-4221-8F22-092815341BED"
+			},
+			{
+				"uuid": "80F97417-917E-444E-A403-9E010CED7E36",
+				"type": "Mesh",
+				"name": "Box",
+				"matrix": [-0.013962,0,0.999903,0,0,1,0,0,-0.999903,0,-0.013962,0,-0.173367,19.10112,0.65618,1],
+				"geometry": "2798DCBD-0AF1-4989-985F-9BD99D8D05C4",
+				"material": "A35ADC10-6C89-4221-8F22-092815341BED"
+			},
+			{
+				"uuid": "A91EBE84-08AB-4BCD-9C9C-1074EC41919B",
+				"type": "Mesh",
+				"name": "Box",
+				"matrix": [-0.857167,0,-0.515038,0,0,1,0,0,0.515038,0,-0.857167,0,3.671695,19.1,-1.567681,1],
+				"geometry": "C0330C89-C2C5-43E6-BB32-213C4534862E",
+				"material": "A35ADC10-6C89-4221-8F22-092815341BED"
+			}],
+		"background": 11184810
+	}
+}

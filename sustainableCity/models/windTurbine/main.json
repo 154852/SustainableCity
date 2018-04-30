@@ -1,0 +1,151 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "A9F65BF6-2B41-43A8-BA7B-EB6DDD526835",
+			"type": "CylinderBufferGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 10,
+			"radialSegments": 12,
+			"heightSegments": 1,
+			"openEnded": false
+		},
+		{
+			"uuid": "4A844BFE-F67C-4FE3-B384-EC0A242EB118",
+			"type": "CylinderBufferGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 0.52,
+			"height": 2.6,
+			"radialSegments": 13,
+			"heightSegments": 1,
+			"openEnded": false
+		}],
+	"materials": [
+		{
+			"uuid": "132DC2F5-B2F4-4438-B1B5-5322670C8DB5",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 15856113,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true
+		},
+		{
+			"uuid": "6F085DCE-1F36-4BB7-B935-0AA701A1176B",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 15199468,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true
+		}],
+	"object": {
+		"uuid": "3741222A-BD8F-401C-A5D2-5A907E891896",
+		"type": "Scene",
+		"name": "Scene",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "98F11F20-E056-4F12-BC66-91728073FF23",
+				"type": "Group",
+				"name": "Group",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5,0,-3.75,1],
+				"children": [
+					{
+						"uuid": "09C71927-4E42-4739-A60B-F1425F90753A",
+						"type": "Mesh",
+						"name": "Cylinder",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,5,0,1],
+						"geometry": "A9F65BF6-2B41-43A8-BA7B-EB6DDD526835",
+						"material": "132DC2F5-B2F4-4438-B1B5-5322670C8DB5"
+					},
+					{
+						"uuid": "C05A4E26-C6F8-40A0-95C7-C38A7CDFDA2C",
+						"type": "Mesh",
+						"name": "Cylinder",
+						"matrix": [0,1,0,0,-1,0,0,0,0,0,1,0,0,10,0,1],
+						"geometry": "4A844BFE-F67C-4FE3-B384-EC0A242EB118",
+						"material": "6F085DCE-1F36-4BB7-B935-0AA701A1176B"
+					}]
+			},
+			{
+				"uuid": "1A78BD1D-0800-430A-AF7F-53E8E11B1CCD",
+				"type": "Group",
+				"name": "Group",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5,0,3.75,1],
+				"children": [
+					{
+						"uuid": "82C25524-06AB-4AFD-AD71-081F9453A055",
+						"type": "Mesh",
+						"name": "Cylinder",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,5,0,1],
+						"geometry": "A9F65BF6-2B41-43A8-BA7B-EB6DDD526835",
+						"material": "132DC2F5-B2F4-4438-B1B5-5322670C8DB5"
+					},
+					{
+						"uuid": "89F960FB-CCBF-49BF-8FB6-AE545C7AC3C5",
+						"type": "Mesh",
+						"name": "Cylinder",
+						"matrix": [0,1,0,0,-1,0,0,0,0,0,1,0,0,10,0,1],
+						"geometry": "4A844BFE-F67C-4FE3-B384-EC0A242EB118",
+						"material": "6F085DCE-1F36-4BB7-B935-0AA701A1176B"
+					}]
+			},
+			{
+				"uuid": "0231EDF2-DBC2-4098-AC5D-51A2DA68D365",
+				"type": "Group",
+				"name": "Group",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5,0,-3.75,1],
+				"children": [
+					{
+						"uuid": "B9A313EE-AEEB-43E5-8DFB-4293B612283D",
+						"type": "Mesh",
+						"name": "Cylinder",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,5,0,1],
+						"geometry": "A9F65BF6-2B41-43A8-BA7B-EB6DDD526835",
+						"material": "132DC2F5-B2F4-4438-B1B5-5322670C8DB5"
+					},
+					{
+						"uuid": "0D0FD02F-C071-4693-BD4B-E4080CB35DE2",
+						"type": "Mesh",
+						"name": "Cylinder",
+						"matrix": [0,1,0,0,-1,0,0,0,0,0,1,0,0,10,0,1],
+						"geometry": "4A844BFE-F67C-4FE3-B384-EC0A242EB118",
+						"material": "6F085DCE-1F36-4BB7-B935-0AA701A1176B"
+					}]
+			},
+			{
+				"uuid": "0FE7F253-7B2D-4D3B-BFB2-BB4C2871539E",
+				"type": "Group",
+				"name": "Group",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5,0,3.75,1],
+				"children": [
+					{
+						"uuid": "3D783D47-9027-4C4A-8295-E69A46AAF4A5",
+						"type": "Mesh",
+						"name": "Cylinder",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,5,0,1],
+						"geometry": "A9F65BF6-2B41-43A8-BA7B-EB6DDD526835",
+						"material": "132DC2F5-B2F4-4438-B1B5-5322670C8DB5"
+					},
+					{
+						"uuid": "FAB1300A-BD18-45FF-9D3C-F4844AA361EC",
+						"type": "Mesh",
+						"name": "Cylinder",
+						"matrix": [0,1,0,0,-1,0,0,0,0,0,1,0,0,10,0,1],
+						"geometry": "4A844BFE-F67C-4FE3-B384-EC0A242EB118",
+						"material": "6F085DCE-1F36-4BB7-B935-0AA701A1176B"
+					}]
+			}],
+		"background": 11184810
+	}
+}

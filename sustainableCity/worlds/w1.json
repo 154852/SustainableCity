@@ -1,0 +1,322 @@
+{
+    "size": [22, 14],
+    "texts": [
+        {
+            "position": [0, 5, 0],
+            "rotation": [0, 0, 0],
+            "size": [1, 0.2],
+            "text": "test",
+            "color": "0xffffff"
+        }
+    ],
+    "grid": [
+        [
+            {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }, {
+                "path": "river/straight"
+            }
+        ],
+        [
+            {
+                "path": "road/parking/part1",
+                "rotation": [0, 0.5, 0]
+            }, {
+                "path": "road/open/bend",
+                "rotation": [0, 1.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "road/bend",
+                "rotation": [0, 1, 0],
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/bend",
+                "rotation": [0, 1.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "park/end",
+                "rotation": [0, 0.5, 0]
+            }, {
+            }, {
+                "path": "road/bend",
+                "rotation": [0, 1, 0],
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/bend",
+                "rotation": [0, 1.5, 0],
+                "road": true
+            }
+        ], [
+            {
+                "path": "road/parking/full",
+                "rotation": [0, 0.5, 0]
+            }, {
+                "path": "road/open/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "park/straight",
+                "rotation": [0, 0.5, 0]
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "park/straight",
+                "rotation": [0, 0.5, 0]
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "park/straight",
+                "rotation": [0, 0.5, 0]
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }
+        ], {
+            "clone": true
+        }, {
+            "clone": true
+        }, [
+            {
+                "path": "road/parking/part2",
+                "rotation": [0, 0.5, 0]
+            }, {
+                "path": "road/open/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "park/straight",
+                "rotation": [0, 0.5, 0]
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "park/straight",
+                "rotation": [0, 0.5, 0]
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "park/straight",
+                "rotation": [0, 0.5, 0]
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }
+        ],
+        [
+            {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/3way",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/4way",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/4way",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/4way",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/4way",
+                "road": true
+            }
+        ], [
+            {
+            }, {
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "park/straight",
+                "rotation": [0, 0.5, 0]
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "park/straight",
+                "rotation": [0, 0.5, 0]
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "park/straight",
+                "rotation": [0, 0.5, 0]
+            }, {
+            }, {
+                "path": "road/straight",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }
+        ], {
+            "clone": true
+        }, {
+            "clone": true
+        }, {
+            "clone": true
+        }, [
+            {
+            }, {
+            }, {
+            }, {
+                "path": "road/bend",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/bend",
+                "rotation": [0, 0, 0],
+                "road": true
+            }, {
+            }, {
+                "path": "park/end",
+                "rotation": [0, 1.5, 0]
+            }, {
+            }, {
+                "path": "road/bend",
+                "rotation": [0, 0.5, 0],
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/straight",
+                "road": true
+            }, {
+                "path": "road/bend",
+                "rotation": [0, 0, 0],
+                "road": true
+            }
+        ]
+    ]
+}

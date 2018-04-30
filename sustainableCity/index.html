@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Cities of the Future</title>
+        <meta charset=utf-8 />
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+            }
+
+            #cover {
+                background-color: white;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            #cover p {
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+            #enter {
+                background: none;
+                border: solid black 1px;
+                padding-left: 0.8em;
+                padding-right: 0.8em;
+                padding-bottom: 0.4em;
+                padding-top: 0.4em;
+
+                font-size: 110%;
+
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+
+                cursor: pointer;
+
+                margin-top: 2em;
+            }
+
+            #enter:hover {
+                border: solid gray 1px;
+                color: gray;
+            }
+
+            .checkBox {
+                border: solid black 1px;
+                width: 1em;
+                height: 1em;
+                margin-left: 1em;
+                margin-right: 2em;
+                cursor: pointer;
+
+                text-align: center;
+                vertical-align: middle;
+                line-height: 1em;
+
+                color: white;
+
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+            }
+
+            #options {
+                width: 75%;
+                margin: 0 auto;
+            }
+            
+            .checkBox:hover {
+                border: solid gray 1px;
+                color: gray !important;
+            }
+
+            .note {
+                font-size: 80%;
+                margin-bottom: 0;
+            }
+
+
+            .slider {
+                -webkit-appearance: none;
+                width: 50%;
+                height: 1px;
+                background: black;
+                outline: none;
+                opacity: 0.7;
+                -webkit-transition: .2s;
+                transition: opacity .2s;
+            }
+
+            .slider:hover {
+                opacity: 1;
+            }
+
+            .slider::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                width: 25px;
+                height: 25px;
+                background:white;
+                border: solid black 1px;
+                cursor: pointer;
+
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+            }
+
+            .slider::-moz-range-thumb {
+                width: 25px;
+                height: 25px;
+                background:white;
+                border: solid black 1px;
+                cursor: pointer;
+
+                transition: 0.5s;
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+    <script>
+        var options = {};
+    </script>
+    <body>
+        <div id="cover">
+            <h1>Welcome to my geography project...</h1>
+            <p>Click the enter button to begin after it has faded in.</p>
+
+            <p class="note">These options are for lower-end computers and mobile devices, with them on it looks <strong>way</strong> nicer but on some devices won't actually load. In all cases off or lower down means faster loading - in particular clouds and text.</p>
+            <div id="options">
+                <table>
+                    <tr>
+                        <td>
+                            <p>Clouds:</p>
+                        </td>
+                        <td>
+                            <div class="checkBox" enabled="true" optionId="clouds">x</div>
+                        </td>
+
+                        <td>
+                            <p>Automobiles:</p>
+                        </td>
+                        <td>
+                            <div class="checkBox" enabled="true" optionId="autos">x</div>
+                        </td>
+
+                        <td>
+                            <p>Animate:</p>
+                        </td>
+                        <td>
+                            <div class="checkBox" enabled="true" optionId="animations">x</div>
+                        </td>
+
+                        <td>
+                            <p>Light:</p>
+                        </td>
+                        <td>
+                            <div class="checkBox" enabled="true" optionId="light">x</div>
+                        </td>
+
+                        <td>
+                            <p>Fog:</p>
+                        </td>
+                        <td>
+                            <div class="checkBox" enabled="true" optionId="fog">x</div>
+                        </td>
+
+                        <td>
+                            <p>Text:</p>
+                        </td>
+                        <td>
+                            <div class="checkBox" enabled="true" optionId="text">x</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            FOV:
+            <input type="range" min="50" max="100" value="75" class="slider" optionId="fov"/>
+            <span class="indicator" optionId="fov">75</span>
+            <br />
+            <br />
+            Graphics Quality:
+            <input type="range" min="10" max="150" value="100" class="slider" optionId="gfxq"/>
+            <span class="indicator" optionId="gfxq">100</span>
+            <br />
+
+            <button id="enter">Enter</button>
+            <p>Made by Louis-Emile Ploix</p>
+        </div>
+        <script src="front.js"></script>
+    </body>
+</html>
